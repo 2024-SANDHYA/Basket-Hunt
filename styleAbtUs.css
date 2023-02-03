@@ -51,7 +51,7 @@ text-align: center;
 }
 /* our team */
 .ourteam{
-  background: url(/assets/image\ 74.png) no-repeat; 
+  background: url(assets/image\ 74.png) no-repeat; 
   background-size: contain; 
   height: 45vh;
 }
