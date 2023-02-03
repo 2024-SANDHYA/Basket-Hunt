@@ -22,8 +22,8 @@ margin: 30vh auto;
     }
 
 .about_div1_head{
-  margin-bottom: 10px;
     text-align: center;
+    
    }
 
 .div_div1_sub{
@@ -40,18 +40,111 @@ flex-direction: row;
     flex:1;
 }
 .card2{
-
 text-align: center;
 }
+
 .card_img{
   display: inline-block;
   width: 70%;
   height: 49vh;
   border-radius: 100%;    
 }
+/* our team */
+.ourteam{
+  background: url(/assets/image\ 74.png) no-repeat; 
+  background-size: contain; 
+  height: 45vh;
+}
+.ourtem_sub{
+  width: 25vw;
+  padding-top:25vh;
+  padding-left: 4.8vw ;
+}
 
+.team{
+  display: grid;
+  grid-template-columns: 20% 80%; 
+
+  }
+
+  aside{
+  background-color: rgb(84, 201, 244);
+  padding: 10px;
+  text-align: center;
+    }
+
+  main{
+  display: grid;
+  gap: 15px; 
+  margin: 1vh 2vw;
+  }
+
+  .box{
+    border: 1px solid;
+    padding: 14px;
+    text-align: justify;
+    }
+    
+    .box1{
+      border: solid 2px;
+    }
+    .box2{
+   border: solid 2px;
+    }
+    .box3{
+   border: solid 2px;
+    }
+    .box4{
+   border: solid 2px;
+    }
+    @media only screen and ( min-width: 768px){
+      .box1{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      }
+      .box2{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      }
+      .box3{
+      grid-column: 1/2;
+      grid-row:2/3;
+      }
+      .box4{
+      grid-column:2/3 ;
+      grid-row:2/3 ;
+      }
+      }
+
+/* our vision */
 .our_vision_css{
-position: bottom;
-  height: 24vh;
+  border-radius: 1.4em;
+position: relative;
+  width: 40%;
+  height:37vh ;
   background-color: #F4BC44;
+  border: solid 2px black;
+  left: 2vw;
+ z-index: 20;
+}
+
+.our_vision_div2{
+  border-radius: 1.4em;
+  z-index: 10;
+  width: 90%;
+  top: 9vh;
+  right: 2vw;
+  position: relative;
+  background-color: rgb(47, 154, 231);
+  color: white;
+}
+
+.vision{
+  /* border: solid 2px; */
+display: flex;
+flex-direction: row;
+}
+
+.vision_div1{
+padding-left:4.3vw ; 
 }
