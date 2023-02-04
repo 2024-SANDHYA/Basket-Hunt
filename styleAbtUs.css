@@ -16,9 +16,8 @@ body{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-margin: 30vh auto;
+    padding-top: 45vh;
 }
-
 .about_div1{
     margin: 50px auto;
     width: 66%;

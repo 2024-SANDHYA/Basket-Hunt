@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -11,7 +11,6 @@ scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
 }
-
 body{
     background: url(./assets/bg.jpg);
     background-size: 1500px;
@@ -21,13 +20,11 @@ body{
 
 /* Logo */
 #logo{
-    /* position: absolute;  */
+    position: absolute;
     line-height: 30px;
     margin-block-end: 100px;
-    margin-inline-start: 2pc; 
-    width: 60%;
+    margin-inline-start: 2pc;
 }
-
 #logo .img-2{
     margin-left: -2.1rem;
     margin-inline-end: 15rem;
@@ -37,7 +34,6 @@ body{
 /* Navigation */
 #nav{
     inline-size: 90%;
-    /* width: 70%; */
     color: black;
     position: absolute;
     inset-block-start: 10%;
@@ -65,6 +61,7 @@ body{
     display: inline-block;
     padding: 8px 15px;
     position: relative;
+
 }
 
 .header-list ul li a {
@@ -90,13 +87,13 @@ ul li a{
 }
 
 ul:hover li a{
-    transform:scale(1.1);
+    transform:scale(1.5);
     opacity:0.2;
     filter:blur(5px);
 }
 
 ul li a:hover{
-    transform:scale(1);
+    transform:scale(2);
     opacity:1;
     filter:blur(0);
     text-decoration:none;
@@ -337,6 +334,7 @@ ul li a:before{
     font-weight: 500;
 }
 
+
 .h-school1 {
     font-family: "PT Sans";
     font-size: 24px;
@@ -346,7 +344,60 @@ ul li a:before{
     margin-inline-start: 5px;
     
 }
+.accordion{
+    margin: 60px auto;
+    width: 600px;
+}
+.accordion li{
+    list-style-type:none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #F4BC44;   
+    font-family: "PT Sans";
+                              
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    
 
+}
+label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size:24px;
+    font-weight: 600;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    color: rgba(26, 23, 23, 0.699);
+    padding: 0 10px;
+    line-height: 26px;
+    font-size:24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s,padding 0.5s;
+    
+
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+    content: '-';
+    
+}
+
+/*
 .h-school {
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -358,7 +409,7 @@ ul li a:before{
     padding-inline-start: 13px;
     border-radius: 20px;
 }
-
+*/
 .s {
     padding-inline-start: 190px;
     font-size: 22px;
@@ -376,6 +427,7 @@ font-weight: 100;
 
 .footer{
    font-family: PT Sans;
+   
     background-color: #F4BC44;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -402,6 +454,20 @@ font-weight: 100;
     inset-inline-start: auto;
     text-align: start;
     padding-block-start: 0%;
+}
+.media-scroller{
+    --spacer:1rem;
+    display: grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+   grid-auto-columns: 36%;
+  
+   overflow: auto;
+   margin-left: 200px;
+}
+.media-element{
+    padding: var(--spacer);
+    object-fit: cover;
 }
 .testi{
     font-family: PT Sans;
@@ -442,11 +508,12 @@ font-weight: 100;
     padding-top:0.3rem;
     padding-bottom: 0.2rem;
   }
-
   span {
     color: rgb(228, 148, 20);
     font-weight: bold;
   }
+
+  
   .footer_th{
     text-align:start;
     font-weight: 100;
