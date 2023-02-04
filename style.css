@@ -447,3 +447,7 @@ font-weight: 100;
     color: rgb(228, 148, 20);
     font-weight: bold;
   }
+  .footer_th{
+    text-align:start;
+    font-weight: 100;
+  }

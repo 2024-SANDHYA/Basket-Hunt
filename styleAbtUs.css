@@ -23,8 +23,7 @@ margin: 30vh auto;
 
 .about_div1_head{
     text-align: center;
-    
-   }
+     }
 
 .div_div1_sub{
   display: flex;
@@ -63,12 +62,12 @@ text-align: center;
 
 .team{
   display: grid;
-  grid-template-columns: 20% 80%; 
+  grid-template-columns: 30% 70%; 
 
   }
 
   aside{
-  background-color: rgb(84, 201, 244);
+  background-color: rgb(71, 185, 226);
   padding: 10px;
   text-align: center;
     }
@@ -77,12 +76,12 @@ text-align: center;
   display: grid;
   gap: 15px; 
   margin: 1vh 2vw;
-  }
+}
 
   .box{
     border: 1px solid;
     padding: 14px;
-    text-align: justify;
+    text-align: center;
     }
     
     .box1{
@@ -140,7 +139,6 @@ position: relative;
 }
 
 .vision{
-  /* border: solid 2px; */
 display: flex;
 flex-direction: row;
 }
