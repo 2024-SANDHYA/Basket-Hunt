@@ -1,6 +1,9 @@
 body{
     background: white;
 }
+.font-st{
+  font-family: 'Lobster', cursive;
+}
 
 .head{
     height: 80vh;
