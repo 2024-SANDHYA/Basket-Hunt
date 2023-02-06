@@ -57,7 +57,9 @@
   height:10%;
    float:right;
   margin-right: 200px;
-  margin-top: -250px;
+  margin-top: -300px;
+
+
 
 }
 #workingboy{
@@ -82,11 +84,11 @@
 
 .forgotbtn
 {
-  margin-left: 650px;
+  margin-left: 710px;
    margin-bottom: 30px;
 }
 .submitbtn{
-  margin-left:450px;
+  margin-left:510px;
   margin-top:5px;
 }
 /* .pic{
