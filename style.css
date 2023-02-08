@@ -56,7 +56,7 @@
   width:17%;
   height:10%;
    float:right;
-  margin-right: 200px;
+  margin-right: 300px;
   margin-top: -300px;
 
 
@@ -73,22 +73,22 @@
 
 #basketboy
 {
-  width:17%;
+  width:14%;
   height:10%;
    float:right;
-  margin-right: 200px;
-  margin-top: -400px;
+  margin-right: 300px ;
+  margin-top: -420px;
 }
 
 
 
 .forgotbtn
 {
-  margin-left: 710px;
+  margin-left: 750px;
    margin-bottom: 30px;
 }
 .submitbtn{
-  margin-left:510px;
+  margin-left: 550px;
   margin-top:5px;
 }
 /* .pic{
