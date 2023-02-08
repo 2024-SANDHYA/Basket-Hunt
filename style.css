@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -345,7 +345,6 @@ ul li a:before{
 }
 
 .h-school {
-
     margin-inline-start: auto;
     margin-inline-end: auto;
     background-color: #F4BC44;
@@ -444,4 +443,10 @@ font-weight: 100;
   span {
     color: rgb(228, 148, 20);
     font-weight: bold;
+  }
+
+  
+  .footer_th{
+    text-align:start;
+    font-weight: 100;
   }
